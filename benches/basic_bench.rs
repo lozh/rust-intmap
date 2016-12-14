@@ -173,7 +173,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    set.contains(s);
+                    set.contains(s)
                 });
             }
         });
@@ -189,7 +189,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    set.contains(s);
+                    set.contains(s)
                 });
             }
         });
@@ -205,7 +205,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    set.contains(s);
+                    set.contains(s)
                 });
             }
         });
@@ -223,7 +223,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    map.contains(s);
+                    map.contains(s)
                 });
             }
         });
@@ -239,7 +239,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    map.contains_key(s);
+                    map.contains_key(s)
                 });
             }
         });
@@ -255,7 +255,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    map.contains_key(s);
+                    map.contains_key(s)
                 });
             }
         });
@@ -271,7 +271,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    map.contains_key(s);
+                    map.contains_key(s)
                 });
             }
         });
@@ -287,7 +287,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    map.contains_key(s);
+                    map.contains_key(s)
                 });
             }
         });
@@ -319,7 +319,7 @@ mod tests {
         b.iter(|| {
             for s in data.iter() {
                 test::black_box({
-                    map.contains_key(*s);
+                    map.contains_key(*s)
                 });
             }
         });
