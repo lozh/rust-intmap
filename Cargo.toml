@@ -12,3 +12,4 @@ keywords = ["hashmap", "u64", "intmap"]
 
 [dev-dependencies]
 rand = "0.3"
+fnv = "1.0"
